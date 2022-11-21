@@ -15,8 +15,23 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Image("diceeLogo")
-                ExtractedView(n: 1)
+                    .padding(.top, 100)
+                Spacer()
+                HStack {
+                    DiceView(n: 1)
+                    DiceView(n: 2)
                     
+                }
+                Spacer()
+                
+                Button("Roll") {
+                    
+                }
+                .padding(.all)
+                .font(.system(size: 50))
+                .fontWeight(.heavy)
+                .foregroundColor(.white)
+                .background(Color.red)
             }
         }
         
@@ -24,13 +39,15 @@ struct ContentView: View {
 }
 
 
-struct ExtractedView: View {
+struct DiceView: View {
     let n: Int
     
     var body: some View {
         Image("dice\(n)")
             .resizable()
             .aspectRatio(1, contentMode: .fit)
+            .frame(width: 150)
+            .padding(.all)
     }
 }
 
