@@ -11,6 +11,7 @@
 		176D9551292BE114001F3431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D9550292BE114001F3431 /* ContentView.swift */; };
 		176D9553292BE116001F3431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176D9552292BE116001F3431 /* Assets.xcassets */; };
 		176D9556292BE116001F3431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176D9555292BE116001F3431 /* Preview Assets.xcassets */; };
+		176D9589292FD99C001F3431 /* RollGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 176D9588292FD99C001F3431 /* RollGame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		176D9550292BE114001F3431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		176D9552292BE116001F3431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		176D9555292BE116001F3431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		176D9587292FD969001F3431 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		176D9588292FD99C001F3431 /* RollGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RollGame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,9 @@
 			children = (
 				176D954E292BE114001F3431 /* Dicee_SwiftUIApp.swift */,
 				176D9550292BE114001F3431 /* ContentView.swift */,
+				176D9587292FD969001F3431 /* README.md */,
 				176D9552292BE116001F3431 /* Assets.xcassets */,
+				176D9588292FD99C001F3431 /* RollGame.png */,
 				176D9554292BE116001F3431 /* Preview Content */,
 			);
 			path = "Dicee-SwiftUI";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176D9556292BE116001F3431 /* Preview Assets.xcassets in Resources */,
+				176D9589292FD99C001F3431 /* RollGame.png in Resources */,
 				176D9553292BE116001F3431 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
